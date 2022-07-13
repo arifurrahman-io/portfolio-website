@@ -21,43 +21,63 @@ main {
 
 nav {
     position: fixed;
-    width: 100%;
-}
-
-nav ul {
     display: flex;
-    background-color: rgb(25, 188, 134);
-    align-items: center;
+    width: 100%;
+    background-color: rgb(89, 136, 120);
 }
 
-nav li {
+.menu {
+    width: 90%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.menu li {
     list-style: none;
-    margin: 20px;
+    margin: 0px 20px;
     font-size: 20px;
     font-family: var(--font-header2);
-    padding: 0px 10px;
+    padding: 5px 10px;
 }
 
-nav li img {
+.icon li {
+    list-style: none;
+}
+
+.icon li img {
     width: 50px;
 }
 
-nav li a {
+.menu li a {
     text-decoration: none;
     color: white;
     font-size: 20px;
 }
 
 nav li a:hover {
-    color: var(--main-color);
+    color: lightgray;
+}
+
+.quote-button {
+    background-color: #9132e900;
+    padding: 5px 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.quote-button:hover {
+    background-color: var(--main-color);
+    color: white;
+
 }
 
 .banner h1 {
-    font-family: var(--font-header2)
+    font-family: var(--font-header2);
 }
 
 span {
-    color: rgb(66, 207, 196);
+    color: var(--main-color);
     font-family: var(--font-body);
 }
 
@@ -135,4 +155,31 @@ span {
 
 .service-items img {
     width: 30%;
+}
+
+.tools {
+    display: flex;
+    margin-top: 150px;
+}
+
+.my-image {
+    width: 20px;
+    padding: 10px;
+}
+
+.languages {
+    list-style: none;
+    font-family: var(--font-header);
+    color: var(--main-color);
+}
+
+.languages p {
+    font-family: var(--font-body);
+    text-align: justify;
+    color: black;
+}
+
+.fa-brands,
+.fa-solid {
+    color: var(--main-color);
 }
