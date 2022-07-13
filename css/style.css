@@ -1,0 +1,142 @@
+* {
+    margin: 0%;
+}
+
+:root {
+    --font-body: 'Courgette', coursive;
+    --font-header: 'Merienda', cursive;
+    --font-paragraph: 'Tangerine', cursive;
+    --font-header2: 'Oswald', sans-serif;
+}
+
+body {
+    width: 100%;
+}
+
+main {
+    margin: 0px 20px;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    background-color: rgb(25, 188, 134);
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin: 20px;
+    font-size: 20px;
+    font-family: var(--font-header2);
+    padding: 0px 10px;
+}
+
+nav li img {
+    width: 50px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+nav li a:hover {
+    color: lightcyan;
+}
+
+.banner h1 {
+    font-family: var(--font-header2)
+}
+
+span {
+    color: rgb(66, 207, 196);
+    font-family: var(--font-body);
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+
+.banner h3 {
+    font-family: var(--font-paragraph);
+    font-size: 35px;
+}
+
+.banner p {
+    font-size: 20px;
+    font-family: var(--font-body);
+}
+
+.half-width {
+    width: 50%;
+    padding: 10px;
+}
+
+.half-width img {
+    width: 100%;
+    padding: 10px;
+}
+
+.button {
+    background-color: rgb(231, 45, 138);
+    border: none;
+    padding: 2px 10px;
+    text-decoration: none;
+    color: white;
+    font-family: var(--font-header);
+    border-radius: 5px;
+}
+
+.services {
+    width: 100%;
+}
+
+.services h1 {
+    padding: 10px;
+    font-size: 25px;
+    font-family: var(--font-header);
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    text-decoration-color: hotpink;
+    text-decoration-thickness: 5px;
+}
+
+.service-items {
+    display: flex;
+    text-align: justify;
+
+}
+
+.service-items div {
+    width: 25%;
+    border: 1px solid lightgray;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgb(235, 255, 245);
+}
+
+.service-items img {
+    width: 30%;
+}
+
+.service-items button {
+    background-color: hotpink;
+    border: none;
+    padding: 2px 10px;
+    border-radius: 3px;
+}
+
+.read-more a {
+    text-decoration: none;
+    color: white;
+}
