@@ -234,7 +234,7 @@ footer p {
 }
 
 .statistics {
-    margin: 0px 10git0px;
+    margin: 0px 100px;
 }
 
 .my-stat {
@@ -275,4 +275,184 @@ footer p {
     width: 320px;
     font-size: 17px;
     padding: 5px;
+}
+
+
+@media screen and (max-width:767px) {
+
+
+
+    .header1 {
+        font-family: var(--font-header2);
+        font-size: 25px;
+    }
+
+    span {
+        color: var(--main-color);
+        font-family: var(--font-body);
+    }
+
+    .banner {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .banner h3 {
+        font-family: var(--font-paragraph);
+        font-size: 20px;
+    }
+
+    .header-text {
+        padding-left: 10px;
+    }
+
+    .paragraph {
+        font-size: 15px;
+        font-family: var(--font-paragraph);
+        color: gray;
+    }
+
+    .half-width {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .half-width img {
+        width: 100%;
+    }
+
+    .services {
+        width: 100%;
+    }
+
+    .services h1 {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .service-header {
+        width: 100%;
+        padding: 20px 0px;
+    }
+
+    .service-items {
+        display: block;
+        margin: 0px 10px;
+    }
+
+    .service-items div {
+        width: 100%;
+        border: 1px solid lightgray;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+        background-color: rgb(253, 253, 253);
+    }
+
+    .service-items div:hover {
+        background-color: rgb(193, 252, 232);
+    }
+
+    .service-items img {
+        width: 30%;
+    }
+
+    .my-tools {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    .my-tools td {
+        padding: 10px 10px;
+        font-family: var(--font-header);
+        text-align: start;
+        font-size: 16px;
+    }
+
+    .my-tools td:hover {
+        background-color: aquamarine;
+        border-radius: 5px;
+    }
+
+    .tools {
+        display: block;
+        margin: 20px 10px;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .tools img {
+        width: 60%;
+        padding: 10px;
+    }
+
+    .one-two-width {
+        width: 100%;
+    }
+
+    .two-one-width {
+        width: 100%;
+        background-color: rgb(245, 245, 245);
+        border-radius: 10px;
+        padding: 10px 5px;
+    }
+
+    .header2 {
+        font-family: var(--font-paragraph);
+        padding: 20px 0px;
+    }
+
+    .fa-brands,
+    .fa-solid {
+        color: var(--main-color);
+        font-size: 18px;
+    }
+
+    .statistics {
+        margin: 0px 10px;
+    }
+
+    .my-stat {
+        display: block;
+        margin: 0px 10px;
+    }
+
+    .stat-header {
+        text-align: center;
+    }
+
+    .my-stat div {
+        width: 100%;
+        margin: 10px;
+        padding: 10px;
+        background-color: rgb(240, 240, 240);
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    .subscribe {
+        background-color: rgb(226, 251, 251);
+        text-align: center;
+
+        padding: 20px 50px;
+
+    }
+
+    .subscribe-input {
+        justify-items: center;
+        padding: 20px;
+        margin: 20px 20px;
+        background-color: rgb(223, 227, 250);
+    }
+
+    .email-subscribe {
+        height: 25px;
+        width: 150px;
+        font-size: 17px;
+        padding: 5px;
+    }
+
 }
