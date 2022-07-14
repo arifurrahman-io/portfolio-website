@@ -73,8 +73,6 @@ nav li a:hover {
 
 }
 
-
-
 .header1 {
     font-family: var(--font-header2);
 }
@@ -108,7 +106,7 @@ span {
 }
 
 .half-width img {
-    width: 100%;
+    width: 80%;
     padding: 10px;
 }
 
@@ -222,6 +220,7 @@ span {
 }
 
 footer {
+    width: 100%;
     background-color: cadetblue;
 }
 
@@ -280,6 +279,63 @@ footer p {
 
 @media screen and (max-width:767px) {
 
+    body {
+        width: 100%;
+    }
+
+    nav {
+        position: fixed;
+        display: flex;
+        width: 100%;
+        background-color: rgb(89, 136, 120);
+    }
+
+    .menu {
+        width: 90%;
+        display: inline-flex;
+        align-items: center;
+        justify-content: end;
+    }
+
+    .menu li {
+        list-style: none;
+        margin: 0px 20px;
+        font-size: 20px;
+        font-family: var(--font-header2);
+        padding: 5px 10px;
+    }
+
+    .icon li {
+        list-style: none;
+    }
+
+    .icon li img {
+        width: 50px;
+    }
+
+    .menu li a {
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+    }
+
+    nav li a:hover {
+        color: lightgray;
+    }
+
+    .quote-button {
+        background-color: #9132e900;
+        padding: 5px 15px;
+        border: 1px solid white;
+        border-radius: 5px;
+    }
+
+    .quote-button:hover {
+        background-color: var(--main-color);
+        color: white;
+
+    }
+
 
 
     .header1 {
@@ -293,6 +349,7 @@ footer p {
     }
 
     .banner {
+        width: 100%;
         display: grid;
         justify-content: center;
         align-items: center;
@@ -316,11 +373,11 @@ footer p {
 
     .half-width {
         width: 100%;
-        margin-top: 50px;
+        margin-top: 80px;
     }
 
     .half-width img {
-        width: 100%;
+        width: 80%;
     }
 
     .services {
@@ -338,6 +395,7 @@ footer p {
     }
 
     .service-items {
+        width: 100%;
         display: block;
         margin: 0px 10px;
     }
@@ -346,7 +404,7 @@ footer p {
         width: 100%;
         border: 1px solid lightgray;
         padding: 10px;
-        margin: 10px;
+
         border-radius: 10px;
         background-color: rgb(253, 253, 253);
     }
@@ -378,10 +436,8 @@ footer p {
 
     .tools {
         display: block;
-        margin: 20px 10px;
         justify-content: center;
         align-items: center;
-
     }
 
     .tools img {
@@ -411,10 +467,6 @@ footer p {
         font-size: 18px;
     }
 
-    .statistics {
-        margin: 0px 10px;
-    }
-
     .my-stat {
         display: block;
         margin: 0px 10px;
@@ -436,7 +488,6 @@ footer p {
     .subscribe {
         background-color: rgb(226, 251, 251);
         text-align: center;
-
         padding: 20px 50px;
 
     }
@@ -453,6 +504,19 @@ footer p {
         width: 150px;
         font-size: 17px;
         padding: 5px;
+    }
+
+    footer {
+        width: 100%;
+        background-color: cadetblue;
+    }
+
+    footer p {
+        text-align: center;
+        font-size: 18px;
+        font-family: var(--font-body2);
+        padding: 20px;
+        color: white;
     }
 
 }
