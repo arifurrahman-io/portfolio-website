@@ -16,6 +16,10 @@ body {
     width: 100%;
 }
 
+.header1 {
+    font-family: var(--font-header2);
+}
+
 
 
 nav {
@@ -139,4 +143,15 @@ footer p {
     font-family: var(--font-body2);
     padding: 20px;
     color: white;
+}
+
+.social-icons {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.social-icons a {
+    padding: 10px;
+    margin-top: 30px;
+    color: #979797;
 }
