@@ -5,9 +5,10 @@
 :root {
     --font-body: 'Courgette', coursive;
     --font-header: 'Merienda', cursive;
-    --font-paragraph: 'Tangerine', cursive;
+    --font-paragraph: 'Voltaire', sans-serif;
     --font-header2: 'Oswald', sans-serif;
     --font-body2: 'Patrick Hand', cursive;
+    --font-paragraph2: 'Roboto Condensed', sans-serif;
     --main-color: #e72d8a;
 }
 
@@ -72,7 +73,7 @@ nav li a:hover {
 
 }
 
-.banner h1 {
+.header1 {
     font-family: var(--font-header2);
 }
 
@@ -93,9 +94,10 @@ span {
     font-size: 35px;
 }
 
-.banner p {
-    font-size: 20px;
-    font-family: var(--font-body);
+.paragraph {
+    font-size: 18px;
+    font-family: var(--font-paragraph);
+    color: gray;
 }
 
 .half-width {
@@ -130,43 +132,65 @@ span {
 
 .services h1 {
     padding: 10px;
-    font-size: 25px;
-    font-family: var(--font-header);
-    text-decoration: underline;
-    text-decoration-style: dashed;
-    text-decoration-color: var(--main-color);
-    text-decoration-thickness: 5px;
+    text-align: center;
+}
+
+.service-header {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0px;
 }
 
 .service-items {
     display: flex;
     text-align: justify;
-
+    margin: 0px 100px;
 }
 
 .service-items div {
-    width: 25%;
+    width: 33.33%;
     border: 1px solid lightgray;
     padding: 10px;
     margin: 10px;
     border-radius: 10px;
-    background-color: rgb(235, 255, 245);
+    background-color: rgb(253, 253, 253);
+}
+
+.service-items div:hover {
+    background-color: rgb(193, 252, 232);
 }
 
 .service-items img {
     width: 30%;
 }
 
+.my-tools {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.my-tools td {
+    border: 1px solid rgba(105, 72, 118, 0.856);
+    padding: 10px 10px;
+    font-family: var(--font-header);
+    text-align: start;
+    font-size: 22px;
+}
+
+.my-tools td:hover {
+    background-color: aquamarine;
+}
+
 .tools {
     display: flex;
-    margin: 80px;
+    margin: 120px 100px;
     justify-content: center;
     align-items: center;
 
 }
 
 .tools img {
-    width: 80%;
+    width: 70%;
     padding: 10px;
 }
 
@@ -176,32 +200,20 @@ span {
 
 .two-one-width {
     width: 64%;
+    background-color: rgb(211, 254, 239);
+    border-radius: 10px;
+    padding: 30px 20px;
 }
 
-.two-one-width h2 {
-    font-family: var(--font-header);
-    padding: 10px;
-    margin-left: 20px;
-    text-decoration-line: underline;
-    text-decoration-color: var(--main-color);
-    text-decoration-style: dotted;
-}
-
-.languages {
-    list-style: none;
-    font-family: var(--font-header);
-    color: var(--main-color);
-}
-
-.languages p {
-    font-family: var(--font-body2);
-    text-align: justify;
-    color: black;
+.header2 {
+    font-family: var(--font-paragraph);
+    padding: 20px 0px;
 }
 
 .fa-brands,
 .fa-solid {
     color: var(--main-color);
+    font-size: 30px;
 }
 
 footer {
