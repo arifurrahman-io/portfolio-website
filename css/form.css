@@ -8,6 +8,7 @@
     --font-paragraph: 'Tangerine', cursive;
     --font-header2: 'Oswald', sans-serif;
     --font-body2: 'Patrick Hand', cursive;
+    --font-paragraph2: 'Roboto Condensed', sans-serif;
     --main-color: #e72d8a;
 }
 
@@ -29,7 +30,7 @@ nav {
     width: 90%;
     display: inline-flex;
     align-items: center;
-    justify-content: end;
+    justify-content: start;
 }
 
 .menu li {
@@ -58,19 +59,6 @@ nav li a:hover {
     color: lightgray;
 }
 
-.quote-button {
-    background-color: #9132e900;
-    padding: 5px 15px;
-    border: 1px solid white;
-    border-radius: 5px;
-}
-
-.quote-button:hover {
-    background-color: var(--main-color);
-    color: white;
-
-}
-
 .half-width {
     width: 50%;
     padding: 10px;
@@ -83,11 +71,12 @@ nav li a:hover {
     align-items: center;
 }
 
-.half-width ul {
-    width: 100%;
-    padding: 10px;
-    margin-top: 120px;
-    list-style: none;
+.half-width td,
+a {
+    font-size: 25px;
+    text-decoration: none;
+    font-family: var(--font-paragraph2);
+    color: black;
 }
 
 .half-width li {
@@ -99,7 +88,7 @@ nav li a:hover {
 .form {
     margin-top: 150px;
     margin-bottom: 50px;
-    background-color: antiquewhite;
+    background-color: rgb(240, 240, 240);
     padding: 50px;
 }
 
@@ -113,6 +102,10 @@ textarea {
     border-radius: 2px;
 }
 
+textarea {
+    height: 100px;
+}
+
 .fa-solid,
 .fas {
     margin: 0px 20px;
@@ -124,11 +117,10 @@ textarea {
 .button {
     background-color: var(--main-color);
     border: none;
-    padding: 2px 15px;
+    padding: 10px 20px;
     text-decoration: none;
     color: white;
-    font-family: var(--font-header);
-    border-radius: 5px;
+    font-family: var(--font-header2);
 }
 
 .button:hover {
