@@ -17,7 +17,7 @@ body {
 }
 
 main {
-    margin: 0px 0px;
+    margin: 0px 50px;
 }
 
 nav {
@@ -109,6 +109,7 @@ span {
     text-decoration: none;
     color: white;
     font-family: var(--font-header2);
+    transition: background-color 1s;
 }
 
 .button:hover {
@@ -139,15 +140,19 @@ span {
 
 .service-items div {
     width: 33.33%;
+    height: 350px;
     border: 1px solid lightgray;
     padding: 10px;
     margin: 10px;
     border-radius: 10px;
     background-color: rgb(253, 253, 253);
+    transition: height .5s;
 }
 
 .service-items div:hover {
     background-color: rgb(193, 252, 232);
+    height: 370px;
+    border-radius: 0px;
 }
 
 .service-items img {
@@ -156,6 +161,7 @@ span {
 
 .my-tools {
     width: 100%;
+    margin-top: 20px;
     border-collapse: collapse;
 }
 
@@ -167,7 +173,7 @@ span {
 }
 
 .my-tools td:hover {
-    background-color: aquamarine;
+    background-color: rgb(226, 226, 226);
     border-radius: 5px;
 }
 
@@ -207,7 +213,6 @@ span {
 
 footer {
     width: 100%;
-    background-color: cadetblue;
 }
 
 footer p {
@@ -215,7 +220,7 @@ footer p {
     font-size: 18px;
     font-family: var(--font-body2);
     padding: 20px;
-    color: white;
+    color: gray;
 }
 
 .statistics {
@@ -238,24 +243,45 @@ footer p {
     background-color: rgb(240, 240, 240);
     border-radius: 10px;
     text-align: center;
+    transition: background-color 2s;
+}
+
+.my-stat div:hover {
+    background-color: rgb(64, 212, 212);
+    color: whitesmoke;
+    border-radius: 0%;
 }
 
 .subscribe {
-    background-color: rgb(226, 251, 251);
     text-align: center;
     padding: 20px 50px;
+    margin-top: 100px;
 }
 
 .subscribe-input {
-    justify-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 20px;
     margin: 20px 220px;
     background-color: rgb(223, 227, 250);
 }
 
 .email-subscribe {
-    height: 25px;
+    height: 30px;
     width: 320px;
     font-size: 17px;
     padding: 5px;
+}
+
+.social-icons-footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.social-icons-footer a {
+    padding: 10px;
+    color: #979797;
 }

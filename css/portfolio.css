@@ -5,7 +5,7 @@
 :root {
     --font-body: 'Courgette', coursive;
     --font-header: 'Merienda', cursive;
-    --font-paragraph: 'Tangerine', cursive;
+    --font-paragraph: 'Voltaire', sans-serif;
     --font-header2: 'Oswald', sans-serif;
     --font-body2: 'Patrick Hand', cursive;
     --font-paragraph2: 'Roboto Condensed', sans-serif;
@@ -16,11 +16,9 @@ body {
     width: 100%;
 }
 
-.header1 {
-    font-family: var(--font-header2);
+main {
+    margin: 0px 0px;
 }
-
-
 
 nav {
     position: fixed;
@@ -63,59 +61,26 @@ nav li a:hover {
     color: lightgray;
 }
 
+.header1 {
+    font-family: var(--font-header2);
+}
+
+.paragraph {
+    font-size: 18px;
+    font-family: var(--font-paragraph);
+    color: gray;
+}
+
 .half-width {
     width: 50%;
     padding: 10px;
 }
 
-.contact {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.half-width td,
-a {
-    font-size: 25px;
-    text-decoration: none;
-    font-family: var(--font-paragraph2);
-    color: black;
-}
-
-.half-width li {
-    width: 100%;
-    font-size: 20px;
-    font-family: var(--font-header);
-}
-
-.form {
-    margin-top: 150px;
-    margin-bottom: 50px;
-    background-color: rgb(240, 240, 240);
-    padding: 50px;
-}
-
-.form input[type=text],
-input[type=email],
-input[type=tel],
-textarea {
-    width: 100%;
-    padding: 5px 10px;
-    border: 1px solid black;
-    border-radius: 2px;
-}
-
-textarea {
-    height: 100px;
-}
-
-.fa-solid,
-.fas {
-    margin: 0px 20px;
-    padding: 10px;
-    font-size: 30px;
-    color: rgb(61, 61, 247);
+.half-width img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
 }
 
 .button {
@@ -134,8 +99,13 @@ textarea {
     color: var(--main-color);
 }
 
+.header2 {
+    font-family: var(--font-paragraph);
+    padding: 20px 0px;
+}
+
 footer {
-    background-color: white;
+    width: 100%;
 }
 
 footer p {
@@ -146,11 +116,10 @@ footer p {
     color: gray;
 }
 
-.social-icons {
-    display: flex;
-    justify-content: start;
-    margin-top: 30px;
-    margin-left: 30px;
+.fa-brands,
+.fa-solid {
+    color: gray;
+    font-size: 30px;
 }
 
 .social-icons-footer {
@@ -165,17 +134,28 @@ footer p {
     color: #979797;
 }
 
-.social-icons-footer a:hover {
-    padding: 10px;
-    color: #262aea;
+.banner {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background-image: url(../images/portfolio-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
 
-.social-icons a {
-    padding: 10px;
-    color: #979797;
+.head-text {
+    font-family: var(--font-header);
+    font-size: 40px;
+    text-align: center;
+    color: white;
 }
 
-.social-icons a:hover {
-    padding: 10px;
-    color: #262aea;
+.ssc-physics {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
 }
