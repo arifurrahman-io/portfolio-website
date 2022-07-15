@@ -65,6 +65,11 @@ nav li a:hover {
     font-family: var(--font-header2);
 }
 
+.header2 {
+    font-family: var(--font-paragraph);
+    padding: 20px 0px;
+}
+
 .paragraph {
     font-size: 18px;
     font-family: var(--font-paragraph);
@@ -73,7 +78,7 @@ nav li a:hover {
 
 .new-width1 {
     width: 30%;
-    padding: 20px;
+    padding: 10px;
 }
 
 .new-width2 {
@@ -112,10 +117,7 @@ nav li a:hover {
     color: var(--main-color);
 }
 
-.header2 {
-    font-family: var(--font-paragraph);
-    padding: 20px 0px;
-}
+
 
 footer {
     width: 100%;

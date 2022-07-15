@@ -1,0 +1,113 @@
+* {
+    margin: 0%;
+}
+
+:root {
+    --font-body: 'Courgette', coursive;
+    --font-header: 'Merienda', cursive;
+    --font-paragraph: 'Voltaire', sans-serif;
+    --font-header2: 'Oswald', sans-serif;
+    --font-body2: 'Patrick Hand', cursive;
+    --font-paragraph2: 'Roboto Condensed', sans-serif;
+    --main-color: #e72d8a;
+}
+
+body {
+    width: 100%;
+}
+
+main {
+    margin: 0px 50px;
+}
+
+nav {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    background-color: rgb(89, 136, 120);
+    margin: 0%;
+}
+
+.menu {
+    width: 90%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.menu li {
+    list-style: none;
+    margin: 0px 20px;
+    font-size: 20px;
+    font-family: var(--font-header2);
+    padding: 5px 10px;
+}
+
+.icon li {
+    list-style: none;
+}
+
+.icon li img {
+    width: 50px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+nav li a:hover {
+    color: lightgray;
+}
+
+.header1 {
+    font-family: var(--font-header2);
+}
+
+.header2 {
+    font-family: var(--font-paragraph);
+    padding: 20px 0px;
+}
+
+.paragraph {
+    font-size: 18px;
+    font-family: var(--font-paragraph);
+    color: gray;
+}
+
+.banner {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.banner div {
+    width: 50%;
+    margin: 100px 20px;
+}
+
+.banner div img {
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.banner span {
+    font-family: var(--font-header);
+    color: var(--main-color);
+}
+
+.fa-brands,
+.fa-solid {
+    color: rgb(54, 179, 179);
+    font-size: 20px;
+    padding: 5px;
+}
+
+.social-icons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

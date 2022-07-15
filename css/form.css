@@ -5,7 +5,7 @@
 :root {
     --font-body: 'Courgette', coursive;
     --font-header: 'Merienda', cursive;
-    --font-paragraph: 'Tangerine', cursive;
+    --font-paragraph: 'Voltaire', sans-serif;
     --font-header2: 'Oswald', sans-serif;
     --font-body2: 'Patrick Hand', cursive;
     --font-paragraph2: 'Roboto Condensed', sans-serif;
@@ -16,8 +16,8 @@ body {
     width: 100%;
 }
 
-.header1 {
-    font-family: var(--font-header2);
+main {
+    margin: 0px 0px;
 }
 
 nav {
@@ -59,6 +59,15 @@ nav {
 
 nav li a:hover {
     color: lightgray;
+}
+
+.header1 {
+    font-family: var(--font-header2);
+}
+
+.header2 {
+    font-family: var(--font-paragraph);
+    padding: 20px 0px;
 }
 
 .half-width {
