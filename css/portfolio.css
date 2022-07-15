@@ -71,16 +71,29 @@ nav li a:hover {
     color: gray;
 }
 
-.half-width {
-    width: 50%;
-    padding: 10px;
+.new-width1 {
+    width: 30%;
+    padding: 20px;
 }
 
-.half-width img {
+.new-width2 {
+    width: 70%;
+    padding: 50px;
+    text-align: justify;
+}
+
+.new-width1 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 40%;
+}
+
+.new-width2 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 .button {
@@ -155,7 +168,15 @@ footer p {
 
 .ssc-physics {
     display: flex;
-    width: 100%;
     justify-content: center;
     align-items: center;
+    padding: 50px 100px;
+    background-color: azure;
+}
+
+.website {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 100px;
 }
